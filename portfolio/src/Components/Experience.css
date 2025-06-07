@@ -1,0 +1,93 @@
+
+.experience {
+  background: #f8f9fa;
+}
+
+.experience-timeline {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.experience-item {
+  border-left: 4px solid #3498db;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.experience-item::before {
+  content: '';
+  position: absolute;
+  left: -8px;
+  top: 2rem;
+  width: 12px;
+  height: 12px;
+  background: #3498db;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.company-info {
+  flex: 1;
+}
+
+.position {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.company {
+  font-size: 1.1rem;
+  color: #3498db;
+  font-weight: 500;
+}
+
+.duration {
+  background: #e3f2fd;
+  color: #1976d2;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.experience-description {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.experience-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tech-tag {
+  background: #f1f3f4;
+  color: #5f6368;
+  padding: 0.25rem 0.75rem;
+  border-radius: 15px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .experience-header {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .duration {
+    align-self: flex-start;
+  }
+}
