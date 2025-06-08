@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 5001;
 
 // ✅ Middleware
 app.use(cors({
-  origin: "https://shaikahamedalisha.onrender.com"
+  origin: "https://shaikahamedalisha.onrender.com"}));
 app.use(express.json());
 app.options("*", cors());
 
