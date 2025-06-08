@@ -17,14 +17,14 @@ const Contact = () => {
       [e.target.name]: e.target.value
     });
   };
-
+const backendUrl = process.env.REACT_APP_BACKEND_URL;
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
     setError('');
 
     try {
-      const response = await fetch("http://localhost:5001/api/contact", {
+      const response = await fetch("https://my-portfolio-backend-cfyh.onrender.com/api/contact", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
