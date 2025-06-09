@@ -31,7 +31,7 @@ const Projects = () => {
       fullDescription: "This research-focused project explores the intersection of graph theory and natural language processing...",
       techStack: ["Python", "NetworkX", "Word2Vec", "NumPy"],
       githubLink: "https://github.com",
-      demoLink: "/Demo/Knowedge.pptx", // No demo available
+      demoLink: "/Demo/Knowledge.pptx", // No demo available
       category: "Machine Learning"
     },
     {
@@ -40,7 +40,7 @@ const Projects = () => {
       fullDescription: "A life-saving application that uses computer vision to detect vehicle accidents in real-time...",
       techStack: ["Python", "OpenCV", "Django", "SQLite", "Twilio"],
       githubLink: "https://github.com",
-      demoLink: "/demo/Accident.pdf",
+      demoLink: "/Demo/Accident.pdf",
       category: "Computer Vision"
     }
   ];
