@@ -111,7 +111,7 @@ const backendUrl = process.env.REACT_APP_BACKEND_URL;
             <h3>Get in Touch</h3>
             <p>I'm always open to discussing new opportunities, collaborations, or just having a friendly chat about technology!</p>
             <div className="social-links">
-              <a href="https://github.com/alisha" target="_blank" rel="noopener noreferrer" className="social-link">
+              <a href=" https://github.com/AhamedAlisha786" target="_blank" rel="noopener noreferrer" className="social-link">
                 <span className="social-icon">💼</span>
                 <span>GitHub</span>
               </a>

@@ -78,7 +78,7 @@ const About = () => {
                   <strong>GitHub:</strong>
                   <Tooltip.Root>
                     <Tooltip.Trigger asChild>
-                      <a href="https://github.com/alisha" target="_blank" rel="noopener noreferrer">
+                      <a href=" https://github.com/AhamedAlisha786" target="_blank" rel="noopener noreferrer">
                         github.com/alisha
                       </a>
                     </Tooltip.Trigger>
