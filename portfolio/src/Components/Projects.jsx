@@ -8,7 +8,7 @@ const Projects = () => {
     {
       title: "Modern Developer Portfolio",
       description: "A sleek and dynamic personal portfolio showcasing projects, skills, experience, and a smart contact system. Fully responsive and optimized for hiring visibility.",
-      fullDescription: "This portfolio application is designed to highlight my professional profile with a visually appealing, mobile-friendly UI...",
+      fullDescription: "A personal portfolio web app designed and developed from scratch using React.js for the frontend and Node.js for backend email handling. It features a responsive layout, animated hero section, categorized project showcase, downloadable resume, and an integrated contact form powered by Nodemailer. Built to demonstrate real-world full-stack development skills, optimized for recruiters and hiring managers.",
       techStack: ["React.js", "Node.js", "Nodemailer"],
       githubLink: "https://github.com/your-username/portfolio",
       demoLink: "https://shaikahamedalisha.onrender.com",
@@ -18,7 +18,7 @@ const Projects = () => {
     {
       title: "Expense Tracker App",
       description: "A comprehensive budget-based expense tracking application featuring real-time interactive charts...",
-      fullDescription: "This full-stack application helps users manage their finances with advanced features like monthly budget goals...",
+      fullDescription: "A full-stack budget and expense management application enabling users to track their income, expenses, and savings efficiently. Includes monthly budgeting goals, pie and bar charts (via Chart.js), and persistent data with MongoDB. Built with React.js for the user interface and Node.js/Express.js for the backend API. The app also supports dynamic filtering, real-time visual analytics, and mobile responsiveness.",
       techStack: ["React.js", "Node.js", "MongoDB", "Chart.js"],
       githubLink: "https://github.com",
       demoLink: "",
@@ -28,7 +28,7 @@ const Projects = () => {
     {
       title: "Knowledge Graph Embeddings",
       description: "Advanced machine learning project implementing temporal knowledge graph embeddings...",
-      fullDescription: "This research-focused project explores the intersection of graph theory and natural language processing...",
+      fullDescription: "An academic research project exploring temporal knowledge graphs using graph embedding techniques. Leveraged NetworkX for graph construction, Word2Vec for semantic embedding, and NumPy for computational operations. The goal was to model and represent evolving relationships in knowledge networks over time, which has applications in NLP and AI-driven recommendation systems. Developed entirely in Python for experimentation and analysis.",
       techStack: ["Python", "NetworkX", "Word2Vec", "NumPy"],
       githubLink: "https://github.com",
       demoLink: "/Demo/Knowledge.pptx", // No demo available
@@ -37,7 +37,7 @@ const Projects = () => {
     {
       title: "Accident Detection System",
       description: "Intelligent vehicle collision detection system leveraging OpenCV computer vision technologies...",
-      fullDescription: "A life-saving application that uses computer vision to detect vehicle accidents in real-time...",
+     fullDescription: "A smart surveillance system that detects road accidents using computer vision techniques in real-time. Developed using Python, OpenCV for motion detection, and Django for the web interface. SQLite was used for storing logs, and Twilio was integrated to send emergency SMS alerts automatically. The system aims to provide a proactive safety mechanism for smart cities and autonomous vehicles.",
       techStack: ["Python", "OpenCV", "Django", "SQLite", "Twilio"],
       githubLink: "https://github.com",
       demoLink: "/Demo/Accident.pdf",
